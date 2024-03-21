@@ -1,29 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-20T15:44:04 EDT" name="Suite" finished-at="2024-03-20T15:44:04 EDT" duration-ms="59">
+  <suite started-at="2024-03-21T17:52:35 EDT" name="Suite" finished-at="2024-03-21T17:53:45 EDT" duration-ms="69519">
     <groups>
     </groups>
-    <test started-at="2024-03-20T15:44:04 EDT" name="Test" finished-at="2024-03-20T15:44:04 EDT" duration-ms="59">
-      <class name="tests.PassingTestNgParamsFromMaven">
-        <test-method signature="testPassingTestNgParamsFromMaven(java.lang.String,java.lang.String)[pri:0, instance:tests.PassingTestNgParamsFromMaven@4b45a2f5]" started-at="2024-03-20T15:44:04 EDT" name="testPassingTestNgParamsFromMaven" finished-at="2024-03-20T15:44:04 EDT" duration-ms="6" status="PASS">
+    <test started-at="2024-03-21T17:52:35 EDT" name="Test" finished-at="2024-03-21T17:53:45 EDT" duration-ms="69519">
+      <class name="tests.DockerWithSeleniumGrid">
+        <test-method is-config="true" signature="startDockerGrid()[pri:0, instance:tests.DockerWithSeleniumGrid@5149d738]" started-at="2024-03-21T17:52:35 EDT" name="startDockerGrid" finished-at="2024-03-21T17:52:51 EDT" duration-ms="15061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDockerGrid -->
+        <test-method signature="testChrome(java.lang.reflect.Method)[pri:0, instance:tests.DockerWithSeleniumGrid@5149d738]" started-at="2024-03-21T17:52:51 EDT" name="testChrome" finished-at="2024-03-21T17:52:57 EDT" duration-ms="5976" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[CHROME]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[gmail.com]]>
+                <![CDATA[void tests.DockerWithSeleniumGrid.testChrome(java.lang.reflect.Method) throws java.net.MalformedURLException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPassingTestNgParamsFromMaven -->
-      </class> <!-- tests.PassingTestNgParamsFromMaven -->
+        </test-method> <!-- testChrome -->
+        <test-method signature="testEdge(java.lang.reflect.Method)[pri:0, instance:tests.DockerWithSeleniumGrid@5149d738]" started-at="2024-03-21T17:52:51 EDT" name="testEdge" finished-at="2024-03-21T17:52:58 EDT" duration-ms="7018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[void tests.DockerWithSeleniumGrid.testEdge(java.lang.reflect.Method) throws java.net.MalformedURLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEdge -->
+        <test-method signature="testFirefox(java.lang.reflect.Method)[pri:0, instance:tests.DockerWithSeleniumGrid@5149d738]" started-at="2024-03-21T17:52:51 EDT" name="testFirefox" finished-at="2024-03-21T17:53:00 EDT" duration-ms="9307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[void tests.DockerWithSeleniumGrid.testFirefox(java.lang.reflect.Method) throws java.net.MalformedURLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirefox -->
+        <test-method is-config="true" signature="stopDockerGrid()[pri:0, instance:tests.DockerWithSeleniumGrid@5149d738]" started-at="2024-03-21T17:53:00 EDT" name="stopDockerGrid" finished-at="2024-03-21T17:53:45 EDT" duration-ms="45074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDockerGrid -->
+      </class> <!-- tests.DockerWithSeleniumGrid -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

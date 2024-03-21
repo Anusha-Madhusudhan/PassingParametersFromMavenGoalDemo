@@ -1,2 +1,4 @@
+tests\DockerDemoWithChrome.class
 tests\FergusonSiteTest.class
+tests\DockerWithSeleniumGrid.class
 tests\PassingTestNgParamsFromMaven.class
